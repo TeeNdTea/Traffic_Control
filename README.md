@@ -16,3 +16,18 @@ This project simulates a **4-intersection one-way traffic network** and models i
 - **Matrix Representation**: For solving the system with Python  
 - **Python (NumPy)**: Used `numpy.linalg.solve()` to find the unknowns  
 - **Desmos**: Visualized the traffic flow and node relationships graphically
+
+## 🧠 Key Learnings
+
+> This project demonstrated how complex systems can be effectively modeled and solved using a combination of mathematical reasoning, visual analysis and programming. It bridges the gap between abstract math and real-world problem-solving through simulation.
+
+## ⚠️ Important Note
+The specific values used in this simulation results in an inconsistent system of equations. However, the methodology and code are general and will work correctly for any set of traffic flow values that maintain consistency (i.e. where total inflow equals total outflow at each node).
+> Feel free to modify the input values to test different traffic scenarios.
+
+## 💻 Files in This Repository
+
+| File | Description |
+|------|-------------|
+| `traffic_control.ipynb` | Python script with matrix formulation and solution using NumPy |
+| `docs_to_learn` | Desmos-style traffic network visualization & Text-based system of equations used for modeling |
